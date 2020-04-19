@@ -19,3 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('basic',"basic@index");
+Route::post('basicInsert',"basic@insert");
